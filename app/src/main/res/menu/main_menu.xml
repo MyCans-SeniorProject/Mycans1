@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_list"
+        android:title="Shopping List"
+        android:icon="@drawable/outline_shopping_cart_white_36"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_scan"
+        android:title="Scan"
+        android:icon="@drawable/scan"
+        android:iconTint="@android:color/white"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        android:icon="@drawable/round_person_black_36"
+        android:iconTint="@android:color/white"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_family"
+        android:title="Family"
+        app:showAsAction="never"
+        />
+
+    <item
+       android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        />
+
+</menu>
